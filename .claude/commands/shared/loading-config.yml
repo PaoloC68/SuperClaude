@@ -9,7 +9,7 @@ Core:
   Reason: Essential for all Claude Code behavior, personas globally available
   
 Global Availability:
-  PERSONAS.md: All 9 cognitive archetypes available via /persona:
+  PERSONAS.md: All 10 cognitive archetypes available via /persona:
   MCP.md: All MCP patterns available automatically
   
 Commands:

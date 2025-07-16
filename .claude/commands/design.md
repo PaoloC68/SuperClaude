@@ -22,6 +22,7 @@ Design modes:
 
 **--api:** Design REST or GraphQL APIs
 - w/ --openapi: Generate OpenAPI 3.0 spec | w/ --graphql: Create GraphQL schema & resolvers
+- w/ --drf-renderers: Design DRF HTML rendering | ViewSets serve API+HTML | Content negotiation patterns
 - Include auth, rate limiting & error handling | Design→scalability & maintainability
 
 **--ddd:** Apply DDD principles

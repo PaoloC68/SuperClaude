@@ -14,7 +14,7 @@ IMPORTANT: Start Fresh by removing old files and dir in .claude (RULES.md MCP.md
 SuperClaude v2 introduces architectural improvements focused on maintainability and extensibility:
 
 - **⚡ Streamlined Architecture**: @include reference system for configuration management
-- **🎭 Personas as Flags**: 9 cognitive personas integrated into the flag system (`--persona-architect`, `--persona-security`, etc.)
+- **🎭 Personas as Flags**: 10 cognitive personas integrated into the flag system (`--persona-architect`, `--persona-security`, `--persona-ssr`, etc.)
 - **📦 Enhanced Installer**: install.sh with update mode, dry-run, backup handling, and platform detection
 - **🔧 Modular Design**: Template system for adding new commands and features
 - **🎯 Unified Experience**: Consistent flag behavior across all commands
@@ -33,8 +33,8 @@ Claude Code provides powerful capabilities but can benefit from:
 ## ✨ SuperClaude Features
 
 SuperClaude enhances Claude Code with:
-- **18 Specialized Commands** covering development lifecycle tasks
-- **9 Cognitive Personas** for domain-specific approaches
+- **19 Specialized Commands** covering development lifecycle tasks
+- **10 Cognitive Personas** for domain-specific approaches
 - **Token Optimization** with compression options
 - **Evidence-Based Methodology** encouraging documentation
 - **MCP Integration** with Context7, Sequential, Magic, Puppeteer
@@ -85,7 +85,7 @@ Switch between different approaches with persona flags:
 /troubleshoot --prod --persona-analyzer # Root cause analysis approach
 ```
 
-**v2.0.1 Update**: All 9 personas are now universal flags, available on every command for consistent access to specialized approaches.
+**v2.0.1 Update**: All 10 personas are now universal flags, available on every command for consistent access to specialized approaches.
 
 ### ⚡ **19 Commands**
 Development lifecycle coverage:
@@ -161,6 +161,14 @@ SuperClaude's @include template system helps manage token usage:
 /scan --validate --deps --persona-security                  # Security check
 ```
 
+### Server-Side Rendering with DRF+HTMX
+```bash
+/design --api --drf-renderers --persona-ssr                 # DRF HTML rendering design
+/build --htmx --unified-endpoints --persona-ssr             # Implement ViewSets with renderers
+/analyze --endpoint-reuse --security --persona-ssr          # Verify single source of truth
+/test --integration --progressive-enhancement               # Test without JavaScript
+```
+
 ## 🎭 Available Personas
 
 | Persona | Focus Area | Tools | Use Cases |
@@ -174,6 +182,7 @@ SuperClaude's @include template system helps manage token usage:
 | **performance** | Optimization | Puppeteer, Sequential | Performance tuning |
 | **refactorer** | Code quality | Sequential, Context7 | Code improvement |
 | **mentor** | Knowledge sharing | Context7, Sequential | Documentation |
+| **ssr** | Server-side rendering | Sequential, Context7 | DRF HTML rendering, HTMX |
 
 ## 🛠️ Configuration Options
 
@@ -263,7 +272,7 @@ SuperClaude v2's architecture enables extensibility:
 **🎯 Unified Command System**
 - **19 Commands** – Development lifecycle coverage
 - **Flag Inheritance** – Universal flags on all commands
-- **Persona Integration** – 9 cognitive modes as flags
+- **Persona Integration** – 10 cognitive modes as flags
 - **Template Validation** – Reference integrity checking
 
 **📦 Architecture Benefits**
@@ -282,7 +291,7 @@ SuperClaude v2's architecture enables extensibility:
 
 | Aspect | Standard Claude Code | SuperClaude Framework |
 |--------|---------------------|----------------------|
-| **Expertise** | General responses | 9 specialized personas |
+| **Expertise** | General responses | 10 specialized personas |
 | **Commands** | Manual instructions | 19 workflow commands |
 | **Context** | Session-based | Git checkpoint support |
 | **Tokens** | Standard usage | Compression options |
@@ -377,7 +386,7 @@ Join the community: [Discussions](https://github.com/NomenAK/SuperClaude/discuss
 
 **📊 Framework Details:**
 - **Commands**: 19 specialized commands
-- **Personas**: 9 cognitive approaches
+- **Personas**: 10 cognitive approaches
 - **MCP Servers**: 4 integrations
 - **Methodology**: Evidence-based approach
 - **Usage**: By development teams

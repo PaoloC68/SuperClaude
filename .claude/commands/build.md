@@ -24,6 +24,8 @@ Build modes:
 **--init:** New project w/ stack (React|API|Fullstack|Mobile|CLI) | TS default | Testing setup | Git workflow
 **--feature:** Impl feature→existing patterns | Maintain consistency | Include tests  
 **--tdd:** Write failing tests→minimal code→pass tests→refactor
+**--htmx:** Build w/ HTMX hypermedia patterns | Progressive enhancement | Server-driven UI | Minimal JS
+**--unified-endpoints:** Single endpoint→API+HTML | DRF ViewSets w/ renderers | Content negotiation | No duplication
 
 Templates:
 - **React:** Vite|TS|Router|state mgmt|testing

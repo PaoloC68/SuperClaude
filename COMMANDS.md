@@ -92,6 +92,7 @@ All personas are now integrated as flags, available on every command:
 | `--persona-refactorer` | Code quality, maintainability | Code cleanup, technical debt |
 | `--persona-performance` | Optimization, profiling, efficiency | Performance tuning, bottlenecks |
 | `--persona-qa` | Testing, edge cases, validation | Quality assurance, test coverage |
+| `--persona-ssr` | Server-side rendering, HTMX, DRF HTML | Unified endpoints, hypermedia patterns |
 
 ---
 
@@ -500,6 +501,14 @@ Complex feature management across sessions with automatic breakdown and recovery
 /test --coverage --mutation
 ```
 
+**Server-Side Rendering (DRF+HTMX)**
+```bash
+/design --api --drf-renderers --persona-ssr --seq
+/build --htmx --unified-endpoints --persona-ssr
+/analyze --endpoint-reuse --security --persona-ssr
+/test --integration --progressive-enhancement
+```
+
 ### 💡 Best Practices
 
 1. **Always validate risky operations**
@@ -538,4 +547,4 @@ Complex feature management across sessions with automatic breakdown and recovery
 
 ---
 
-**SuperClaude v2.0.1** - 19 professional commands | 9 cognitive personas | Advanced MCP integration | Evidence-based methodology
+**SuperClaude v2.0.1** - 19 professional commands | 10 cognitive personas | Advanced MCP integration | Evidence-based methodology

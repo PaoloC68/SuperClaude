@@ -32,6 +32,7 @@ Examples:
 --bail: "Stop on first test failure"
 --parallel: "Run tests in parallel workers"
 --update-snapshots: "Update all snapshot tests"
+--progressive-enhancement: "Test w/o JavaScript | Server functionality first | HTMX interactions | Graceful degradation"
 
 ## Testing Approaches
 

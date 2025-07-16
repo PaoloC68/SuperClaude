@@ -30,6 +30,8 @@ Analysis modes:
 
 **--perf:** Bottleneck analysis | Algorithm complexity | DB queries & indexes | Caching strategies | Resource utilization
 
+**--endpoint-reuse:** Analyze DRF endpoint unification | API+HTML same logic | No validation duplication | Single source truth
+
 **--watch:** Continuous file monitoring | Real-time quality tracking | Auto re-analysis | Live metrics
 
 **--interactive:** Guided exploration | Step-by-step fixes | Live improvement
